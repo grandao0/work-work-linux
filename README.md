@@ -5,6 +5,10 @@ I stand ready
 
 #### Linux Commands:
 
+`chmod o+w <dirPath>` -- changes the permission mode of the `other` a write permission
+
+`chown` -- changes ownership
+
 `clear` -- clears the terminal
 
 `alias <aliasName>=<aliasCommand>` -- creates a long command abbreviated by the alias name

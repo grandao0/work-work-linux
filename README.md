@@ -7,6 +7,8 @@ I stand ready
 
 `chmod o+w <dirPath>` -- changes the permission mode of the `other` a write permission
 
+`chmod u-rwx <dirPath>` -- removes all of the permissions of the `users` on the directory
+
 `chown` -- changes ownership
 
 `clear` -- clears the terminal
@@ -60,3 +62,17 @@ I stand ready
 `sudo -u <userName> <command>` -- runs the command as the chosen user
 
 `su -` -- switch user
+
+`yum repolist all` -- list all yum repositories
+
+`yum info <software>` -- prints information on softwares
+
+`yum install -y <software` -- installs the software as non-interactive as possible answering yes to all with `-y`
+
+`yum update` -- updates all softwares installed
+
+`yum update <software>` -- updates the passed software
+
+`yum remove <software>` -- removes the passed software
+
+`ls -l /etc/yum.repos.d` -- list all the repositories files

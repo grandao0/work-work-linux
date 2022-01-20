@@ -76,3 +76,11 @@ I stand ready
 `yum remove <software>` -- removes the passed software
 
 `ls -l /etc/yum.repos.d` -- list all the repositories files
+
+`ifconfig -a` -- get you the private IP address of your interfaces
+
+`ip addr` -- get you the private IP address of your interfaces
+
+`nmcli -p device show` -- get you the private IP address of your interfaces
+
+`hostname -I | awk '{print $1}'` -- get you the private IP address of your interfaces
